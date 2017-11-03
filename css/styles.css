@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    max-width: 80% ;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul  {
+    display: flex;
+}
+
+li {
+    margin-right: 25px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    width: 20%;
+    align-self: flex-end;
+}
+
+.header h1{
+    font-size: 45px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+/*  */
+
+.products {
+   border: 2px solid red;
+   padding: 40px;
+}
+
+.products h3 {
+   border: 1px solid yellow;
+}
+
+.product-container {
+   border: 1px solid black;
+   height: 800px;
+   display: flex;
+}
+
+.product-box {
+    border: 1px solid black;
+    height: 300px;
+    width: 150px;
+    background: rgb(0, 153, 255);
+ }
